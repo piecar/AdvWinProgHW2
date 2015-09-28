@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdvWinProgHW2
 {
-    public partial class Form1 : Form
+    public partial class OathForm : Form
     {
-        public Form1()
+        public OathForm()
         {
             InitializeComponent();
         }
