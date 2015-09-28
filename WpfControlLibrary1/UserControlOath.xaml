@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="WpfControlLibrary1.UserControlOath"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfControlLibrary1"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Margin="0,0,-191,0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label" Content="I understand that this homework will be the basis for a quiz.&#xD;&#xA;&#xD;&#xA;      It is in my best interest to do the homework and study all the&#xD;&#xA;      code for the homework." HorizontalAlignment="Center" Margin="17,97,29,0" VerticalAlignment="Top" Foreground="#FF6051C1" FontSize="16" FontFamily="Imprint MT Shadow"/>
+
+    </Grid>
+</UserControl>
