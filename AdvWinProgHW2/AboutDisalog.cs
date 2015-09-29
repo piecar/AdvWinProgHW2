@@ -11,9 +11,9 @@ using WpfControlLibrary1;
 
 namespace AdvWinProgHW2
 {
-    public partial class OathForm : BaseDialogForm
+    public partial class AboutDisalog : BaseDialogForm
     {
-        public OathForm()
+        public AboutDisalog()
         {
             InitializeComponent();
         }

@@ -7,3 +7,6 @@ C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgH
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.exe
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.pdb
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.OathForm.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\AdvWinProgHW2\bin\Debug\AdvWinProgHW2.exe.config
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.exe
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.pdb

@@ -9,3 +9,15 @@ C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\WpfControlL
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.UserControlCourse.resources
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.UserControlName.resources
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.UserControlOath.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.dll
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\bin\Debug\WpfControlLibrary1.pdb
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\ControlLibraryHW2.csprojResolveAssemblyReference.cache
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.BaseDialogForm.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.BaseForm.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.Properties.Resources.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.UserControlCourse.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.UserControlName.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.UserControlOath.resources
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\ControlLibraryHW2.csproj.GenerateResource.Cache
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.dll
+C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\WpfControlLibrary1\obj\Debug\WpfControlLibrary1.pdb

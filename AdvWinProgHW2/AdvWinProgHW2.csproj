@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutDisalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDisalog.Designer.cs">
+      <DependentUpon>AboutDisalog.cs</DependentUpon>
+    </Compile>
     <Compile Include="OathForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OathForm.Designer.cs">
       <DependentUpon>OathForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PreferencesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreferencesDialog.Designer.cs">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutDisalog.resx">
+      <DependentUpon>AboutDisalog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OathForm.resx">
       <DependentUpon>OathForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreferencesDialog.resx">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,6 +103,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Avatar Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WpfControlLibrary1\ControlLibraryHW2.csproj">
+      <Project>{c2cf6fcb-4fb2-428f-ba82-aa3e4c7d437a}</Project>
+      <Name>ControlLibraryHW2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

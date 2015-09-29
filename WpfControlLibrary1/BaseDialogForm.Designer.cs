@@ -28,10 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControlName1 = new WpfControlLibrary1.UserControlName();
-            this.userControlCourse1 = new WpfControlLibrary1.UserControlCourse();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.userControlCourse1 = new WpfControlLibrary1.UserControlCourse();
+            this.userControlName1 = new WpfControlLibrary1.UserControlName();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 58);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(404, 251);
+            this.panel1.TabIndex = 2;
+            // 
+            // userControlCourse1
+            // 
+            this.userControlCourse1.BackColor = System.Drawing.Color.Transparent;
+            this.userControlCourse1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.userControlCourse1.Location = new System.Drawing.Point(0, 0);
+            this.userControlCourse1.Name = "userControlCourse1";
+            this.userControlCourse1.Size = new System.Drawing.Size(404, 58);
+            this.userControlCourse1.TabIndex = 1;
             // 
             // userControlName1
             // 
@@ -40,22 +58,6 @@
             this.userControlName1.Name = "userControlName1";
             this.userControlName1.Size = new System.Drawing.Size(404, 61);
             this.userControlName1.TabIndex = 0;
-            // 
-            // userControlCourse1
-            // 
-            this.userControlCourse1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.userControlCourse1.Location = new System.Drawing.Point(0, 0);
-            this.userControlCourse1.Name = "userControlCourse1";
-            this.userControlCourse1.Size = new System.Drawing.Size(404, 58);
-            this.userControlCourse1.TabIndex = 1;
-            // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 58);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(404, 251);
-            this.panel1.TabIndex = 2;
             // 
             // BaseDialogForm
             // 
