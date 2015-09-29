@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdvWinProgHW2
+namespace WpfControlLibrary1
 {
-    public partial class UserControlCourse : UserControl
+    public partial class UserControlName : UserControl
     {
-        public UserControlCourse()
+        public UserControlName()
         {
             InitializeComponent();
         }

@@ -2,13 +2,8 @@ C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgH
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\bin\Debug\AdvWinProgHW2.exe
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\bin\Debug\AdvWinProgHW2.pdb
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.csprojResolveAssemblyReference.cache
-C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.BaseForm.resources
-C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.UserControlOath.resources
-C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.UserControlCourse.resources
-C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.UserControlName.resources
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.Properties.Resources.resources
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.csproj.GenerateResource.Cache
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.exe
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.pdb
-C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.FormDialogBase.resources
 C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.OathForm.resources

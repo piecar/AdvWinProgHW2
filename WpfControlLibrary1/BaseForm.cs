@@ -12,13 +12,31 @@ namespace WpfControlLibrary1
 {
     public partial class BaseForm : Form
     {
-        private bool dragging = false;
-        private Point dragCursorPoint;
-        private Point dragFormPoint;
+        Point downP = Point.Empty;
 
         public BaseForm()
         {
             InitializeComponent();
+        }
+
+        private void BaseForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            downP = new Point(e.X, e.Y);
+        }
+
+        private void BaseForm_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (downP == Point.Empty) return;
+            Point newLoc = new Point(this.Left + e.X - downP.X,
+                                    this.Right + e.Y - downP.X);
+            this.Location = newLoc;
+        }
+
+        private void BaseForm_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left) return;
+            downP = Point.Empty;
         }
 
         private void colorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -27,38 +45,6 @@ namespace WpfControlLibrary1
             {
                 this.BackColor = colorDialog1.Color;
             }
-        }
-
-        private void BaseForm_MouseDown(object sender, MouseEventArgs e)
-        {
-            dragging = true;
-            dragCursorPoint = Cursor.Position;
-            dragFormPoint = this.Location;
-        }
-
-        private void BaseForm_MouseUp(object sender, MouseEventArgs e)
-        {
-            dragging = false;
-        }
-
-
-        private void BaseForm_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (dragging)
-            {
-                Point dif = Point.Subtract(Cursor.Position, new Size(dragCursorPoint));
-                this.Location = Point.Add(dragFormPoint, new Size(dif));
-            }
-        }
-
-        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void colorToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            colorToolStripMenuItem_Click(sender, e);
         }
     }
 }

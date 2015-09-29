@@ -69,15 +69,5 @@ namespace AdvWinProgHW2.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Initials {
-            get {
-                object obj = ResourceManager.GetObject("Initials", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
     }
 }

@@ -46,61 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BaseForm.Designer.cs">
-      <DependentUpon>BaseForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormDialogBase.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDialogBase.Designer.cs">
-      <DependentUpon>FormDialogBase.cs</DependentUpon>
-    </Compile>
     <Compile Include="OathForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OathForm.Designer.cs">
       <DependentUpon>OathForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControlOath.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlOath.Designer.cs">
-      <DependentUpon>UserControlOath.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlCourse.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlCourse.Designer.cs">
-      <DependentUpon>UserControlCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlName.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlName.Designer.cs">
-      <DependentUpon>UserControlName.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BaseForm.resx">
-      <DependentUpon>BaseForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDialogBase.resx">
-      <DependentUpon>FormDialogBase.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="OathForm.resx">
       <DependentUpon>OathForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControlOath.resx">
-      <DependentUpon>UserControlOath.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControlCourse.resx">
-      <DependentUpon>UserControlCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControlName.resx">
-      <DependentUpon>UserControlName.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,9 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Initials.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MyPic.jpg" />

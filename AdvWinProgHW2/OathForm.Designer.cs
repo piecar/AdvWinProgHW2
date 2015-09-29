@@ -35,8 +35,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AdvWinProgHW2.Properties.Resources.Avatar_Icon;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(399, 367);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "OathForm";
+            this.ShowIcon = false;
             this.Text = "OathForm";
             this.ResumeLayout(false);
 

@@ -52,29 +52,18 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseDialogForm.Designer.cs">
+      <DependentUpon>BaseDialogForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DialogBaseForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DialogBaseForm.Designer.cs">
-      <DependentUpon>DialogBaseForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlCourse.xaml.cs">
-      <DependentUpon>UserControlCourse.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlName.xaml.cs">
-      <DependentUpon>UserControlName.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlOath.xaml.cs">
-      <DependentUpon>UserControlOath.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -88,35 +77,48 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UserControlCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlCourse.Designer.cs">
+      <DependentUpon>UserControlCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlName.Designer.cs">
+      <DependentUpon>UserControlName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlOath.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlOath.Designer.cs">
+      <DependentUpon>UserControlOath.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaseDialogForm.resx">
+      <DependentUpon>BaseDialogForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DialogBaseForm.resx">
-      <DependentUpon>DialogBaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlCourse.resx">
+      <DependentUpon>UserControlCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlName.resx">
+      <DependentUpon>UserControlName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlOath.resx">
+      <DependentUpon>UserControlOath.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="UserControlCourse.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserControlName.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserControlOath.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
