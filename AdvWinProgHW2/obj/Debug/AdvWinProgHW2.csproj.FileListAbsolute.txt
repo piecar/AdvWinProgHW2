@@ -10,3 +10,8 @@ C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgH
 C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\AdvWinProgHW2\bin\Debug\AdvWinProgHW2.exe.config
 C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.exe
 C:\Users\pieca\Documents\Adv Win Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.pdb
+C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\bin\Debug\WpfControlLibrary1.dll
+C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\bin\Debug\WpfControlLibrary1.pdb
+C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.AboutDisalog.resources
+C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.PreferencesDialog.resources
+C:\Users\piecar\Documents\FIU Classes\Adv Windows Prog\AdvWinProgHW2\AdvWinProgHW2\obj\Debug\AdvWinProgHW2.LoginDialog.resources
